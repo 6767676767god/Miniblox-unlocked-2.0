@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "assets/index-*.js",
+      "resourceTypes": [
+        "script"
+      ],
+      "initiatorDomains": [
+        "miniblox.io",
+        "blockcraft.online",
+        "miniblox.online",
+        "miniblox.org"
+      ]
+    }
+  }
+]
